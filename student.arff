@@ -1,0 +1,12 @@
+@relation student
+@attribute name {SSS,TTT,YYY}
+@attribute roll string
+@attribute age real
+@attribute class {aiml,cse,aids}
+@attribute contact integer
+@data 
+SSS,r03,20,aiml,123456789
+SSS,r02,21,cse,234567890
+TTT,r04,23,aids,1234
+YYY,r032,23,aids,122
+YYY,d23,22,cse,23433
