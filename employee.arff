@@ -1,0 +1,18 @@
+@relation employee
+@attribute age { 25, 27, 28, 29, 30, 35, 48 }
+@attribute salary { 10k, 15k, 17k, 20k, 25k, 30k, 34k, 32k }
+@attribute performance { good, avg, poor }
+@data
+%
+25, 10k, poor
+27, 15k, poor
+27, 17k, poor
+28, 17k, poor
+29, 20k, avg
+30, 25k, avg
+29, 25k, avg
+30, 20k, avg
+35, 32k, good
+48, 34k, good
+48, 32k, good
+%
