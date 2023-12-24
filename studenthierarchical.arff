@@ -1,3 +1,4 @@
+#week7
 @relation student
 @attribute age {<30,30-40,>40}
 @attribute income {low,medium,high}
