@@ -1,11 +1,15 @@
-input<-mtcars[,c("mpg","disp","hp","wt")]
-model<-lm(mpg~disp+hp+wt,data=input)
+input <- mtcars[,c("mpg","disp","hp","wt")]
+# Create the relationship model.
+model <- lm(mpg~disp+hp+wt, data = input)
+# Show the model.
 print(model)
-a<-coef(model)[1]
+# Get the Intercept and coefficients as vector elements.
+cat("# # # # The Coefficient Values # # # ","\n")
+a <- coef(model)[1]
 print(a)
-xdisp<-coef(model)[2]
-xhp<-coef(model)[3]
-xwt<-coef(model)[4]
-print(xdisp)
-print(xhp)
-print(xwt)
+Xdisp <- coef(model)[2]
+Xhp <- coef(model)[3]
+Xwt <- coef(model)[4]
+print(Xdisp)
+print(Xhp)
+print(Xwt)
